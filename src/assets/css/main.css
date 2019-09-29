@@ -1,0 +1,68 @@
+.error-message {
+    color: red;
+}
+.table-data-font {
+    font-family: inherit;
+    font-size: 0.95em;
+    font-weight: 400;
+}
+.phase-heading {
+    font-size: 1.25em;
+    font-weight: normal;
+    color:#777777 !important;
+}
+.phase-title-heading {
+    font-size: 1.9em;
+    color: #262626;
+    font-weight: 300;
+}
+.phase-group {
+    font-size: 1.19em;
+    color: #777777;
+    font-weight: 500;
+}
+#Ribbon.Tabs.PDP.Home.Project.Save-Large {
+    visibility: hidden !important;
+    width: 0px !important;
+}
+.save-phase {
+    margin-top: 4px;
+}
+.ml0 {
+    margin-left: 0px;
+}
+.mt5 {
+    margin-top: 5px;
+}
+.table-header {
+    font-weight: 500;
+    font-size: 1.19em;
+    color: #777777;
+}
+.visibility-hide {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+.full-width {
+    max-width: 95%;
+}
+body.ms-backgroundImage.ltr.animation {
+    font-size: 13px;
+    line-height: normal;
+}
+body.ms-backgroundImage.ltr.noanimation {
+    font-size: 13px;
+    line-height: normal;
+}
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+.cross-btn {
+    position: absolute;
+    min-width: 2px;
+    margin-top: -3px;
+}
+.react-datepicker-wrapper {
+    float: left;
+}
