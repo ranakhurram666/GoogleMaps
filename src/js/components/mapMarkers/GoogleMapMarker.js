@@ -10,8 +10,8 @@ export default class GoogleMapMarker extends React.Component {
                 <Marker
                 position={this.props.position}
                 visible={true}
-                onMouseOver={() => { this.showLabelToggle(); }}
-                onMouseOut={() => { this.showLabelToggle(); }}
+                // onMouseOver={() => { this.showLabelToggle(); }}
+                // onMouseOut={() => { this.showLabelToggle(); }}
                 ></Marker>
             </div>
         )

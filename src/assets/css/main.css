@@ -66,3 +66,44 @@ body.ms-backgroundImage.ltr.noanimation {
 .react-datepicker-wrapper {
     float: left;
 }
+.btn-div {
+    display: flex;
+    float: right;
+}
+.button-cls {
+    border-radius: 3px;
+    margin-left: 10px;
+    color: darkgreen;
+    border: 1px solid #538253;
+    font-weight: 500;
+}
+.ReactModal__Content {
+    height: 300px;
+    width: 450px;
+}
+h2 {
+    font-weight: 400;
+    text-align: center;
+    color: darkgreen;
+}
+.card {
+    border: 1px solid rgba(39, 39, 39, 0.25);
+    margin-bottom: 10px;
+}
+.card-body {
+    padding-bottom: 0.8rem;
+}
+.w85 {
+    width: 85px;
+}
+.w10 {
+    width: 100px;
+}
+.display-inline {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+h4 {
+    color: darkgreen;
+}

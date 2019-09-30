@@ -17,7 +17,7 @@ export default class GoogleMaps extends React.Component {
     render() {
         return(
             <div className="container-fluid">
-                <MapComponent isMarkerShown={true} data={[]} search={[]} center={this.state.mapCenter}
+                <MapComponent markers={this.props.markers} isMarkerShown={true} data={[]} search={[]} center={this.state.mapCenter}
                 googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwAyvJfR76LTfdipoX5MkBDg2btCgMGfk&v=3.exp&libraries=geometry,drawing,places"
                 loadingElement={<div style={{ height: `100%`, width: 'auto', overflow: `visible` }} />}
                 containerElement={<div style={{ height: `100%`, width: 'auto', overflow: `visible` }} />}
@@ -38,9 +38,9 @@ const MapComponent = compose(withScriptjs,
         defaultZoom={7} center={props.center}
         defaultCenter={props.center} style={{ position: 'static', overflow: 'visible' }}
       >
-        {/* {props.isMarkerShown && props.data.map((location) => {
-          return ( */}
-            <GoogleMapMarker key={12} position={{ lat: 51.3396955, lng: 12.3730747 }} />)
-        // })
-        // }
+        {props.markers.map((marker) => { 
+          return (
+            <GoogleMapMarker key={marker.name} name={marker.name} position={{ lat: marker.latitude, lng: marker.longitude }} />)
+         })
+        }
       </GoogleMap>)
