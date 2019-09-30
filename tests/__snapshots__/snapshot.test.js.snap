@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Layout component 1`] = `
+<div>
+  <div
+    className="container-fluid"
+  >
+    <div
+      style={
+        Object {
+          "height": "100%",
+          "overflow": "visible",
+          "width": "auto",
+        }
+      }
+    />
+  </div>
+  <br />
+  <button
+    className="button-cls"
+    onClick={[Function]}
+  >
+    Add Marker
+  </button>
+  <div
+    className="card-body"
+  />
+  <div />
+  <div
+    className="Toastify"
+  />
+</div>
+`;
+
+exports[`Test MarkerItem component 1`] = `
+<div
+  className="card card-body display-inline"
+>
+  <h4>
+    Berlin
+  </h4>
+  <div
+    className=""
+  >
+    <label>
+      <b>
+        Latitude: 
+      </b>
+    </label>
+    <label>
+      50.393
+    </label>
+  </div>
+  <div
+    className=""
+  >
+    <label>
+      <b>
+        Longitude: 
+      </b>
+    </label>
+    <label>
+      12.272
+    </label>
+  </div>
+  <button
+    className="button-cls ml0"
+    onClick={[Function]}
+  >
+    Edit
+  </button>
+  <button
+    className="button-cls"
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</div>
+`;
+
+exports[`Test MarkerList component 1`] = `
+<div
+  className="card-body"
+/>
+`;
