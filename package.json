@@ -16,7 +16,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "es6-set": "^0.1.5",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "react": "16.0.0",
     "react-dom": "16.0.0",
     "react-google-maps": "^9.4.5",
